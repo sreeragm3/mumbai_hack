@@ -7,7 +7,7 @@ content-type: application/json
 }
 
 
-# POST http://127.0.0.1:8000/predicthealth HTTP/1.1
-# content-type: application/json
+POST http://127.0.0.1:8000/predicthealth HTTP/1.1
+content-type: application/json
 
-# {"AQI": 75}
+{"AQI": 75}
