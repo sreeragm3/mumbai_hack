@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 import joblib
 
 # Load your dataset
-df = pd.read_csv("csv/air_quality_health_impact_data.csv")
+df = pd.read_csv("../csv/air_quality_health_impact_data.csv")
 
 # Use only 'AQI' as input feature
 X = df[['AQI']]

@@ -7,7 +7,7 @@ from sklearn.metrics import mean_absolute_error, r2_score
 import joblib
 
 # 1️⃣ Load the standardized AQI dataset
-df = pd.read_csv("csv/standardized_city_aqi.csv")
+df = pd.read_csv("../csv/standardized_city_aqi.csv")
 
 # 2️⃣ Handle missing values
 df = df.dropna(subset=["Computed_AQI"])  # remove rows with no AQI
