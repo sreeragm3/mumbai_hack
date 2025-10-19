@@ -18,7 +18,7 @@ import schedule
 import time
 import json
 from datetime import datetime
-from hospital_resource_manager import hospital_agent
+from legacy.hospital_resource_manager import hospital_agent
 
 def log_timestamp():
     return datetime.now().strftime('%Y-%m-%d %H:%M:%S')
