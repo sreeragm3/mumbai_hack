@@ -1,0 +1,59 @@
+{
+  "messages": [],
+  "aqi_data": {
+    "aqi": 179.26,
+    "category": "Unhealthy",
+    "date": "2025-10-19",
+    "city": "Delhi"
+  },
+  "health_predictions": {
+    "respiratory_cases": 7,
+    "cardiovascular_cases": 5,
+    "hospital_admissions": 0,
+    "health_impact_score": 100.0,
+    "health_impact_class": "Low"
+  },
+  "festival_predictions": {
+    "festivals": [],
+    "total_festivals": 0
+  },
+  "surge_predictions": {},
+  "patient_count_forecast": {
+    "base_patients": 40,
+    "pollution_adjustment": 15,
+    "total_expected_patients": 56,
+    "confidence_range": [
+      53,
+      59
+    ]
+  },
+  "epidemic_alerts": [],
+  "bed_capacity_plan": {
+    "total_beds": 200,
+    "current_occupancy": 150,
+    "available_beds": 50,
+    "daily_expected_admissions": 56,
+    "beds_needed_weekly": 32,
+    "capacity_status": "Normal",
+    "festival_impact": "No festivals in alert window"
+  },
+  "resource_allocation": {
+    "staffing": {
+      "nurses_required": 11,
+      "doctors_required": 5,
+      "respiratory_specialists": 2
+    },
+    "equipment": {
+      "ventilators": 5,
+      "cardiac_monitors": 5,
+      "pulse_oximeters": 28
+    },
+    "supplies": {
+      "blood_units": 0,
+      "respiratory_medications": "14 doses",
+      "cardiac_medications": "10 doses"
+    }
+  },
+  "critical_alerts": [],
+  "task_type": "full_analysis"
+}
