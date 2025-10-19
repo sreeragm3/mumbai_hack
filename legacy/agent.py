@@ -8,7 +8,7 @@ from langchain.agents import create_tool_calling_agent, AgentExecutor
 from langchain.prompts import ChatPromptTemplate
 
 # Import our custom ML tools
-from ml_tools import predict_house_price, get_model_info
+from legacy.ml_tools import predict_house_price, get_model_info
 
 # Load environment variables
 load_dotenv()

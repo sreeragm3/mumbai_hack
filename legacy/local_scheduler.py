@@ -1,7 +1,7 @@
 # local_scheduler.py
 import schedule
 import time
-from agent2 import agent
+from legacy.agent2 import agent
 
 def run_daily_aqi():
     print("\n🔄 Running Daily AQI Task...")

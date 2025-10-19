@@ -1,0 +1,53 @@
+{
+  "aqi_data": {
+    "aqi": 179.26,
+    "category": "Unhealthy",
+    "date": "2025-10-19",
+    "city": "Delhi"
+  },
+  "health_predictions": {
+    "respiratory_cases": 7,
+    "cardiovascular_cases": 5,
+    "hospital_admissions": 0,
+    "health_impact_score": 100.0,
+    "health_impact_class": "Low"
+  },
+  "festival_predictions": {
+    "festivals": [],
+    "total_festivals": 0
+  },
+  "surge_predictions": {},
+  "patient_count_forecast": {
+    "base_patients": 40,
+    "pollution_adjustment": 15,
+    "total_expected_patients": 56
+  },
+  "epidemic_alerts": [],
+  "bed_capacity_plan": {
+    "total_beds": 200,
+    "available_beds": 50,
+    "daily_expected_admissions": 56,
+    "beds_needed_weekly": 32,
+    "capacity_status": "Normal"
+  },
+  "resource_allocation": {
+    "staffing": {
+      "nurses_required": 11,
+      "doctors_required": 5
+    },
+    "equipment": {
+      "ventilators": 5,
+      "cardiac_monitors": 5
+    },
+    "supplies": {
+      "blood_units": 0
+    }
+  },
+  "critical_alerts": [],
+  "llm_insights": {
+    "summary": "Okay, here's my analysis based on the provided data:\n\n**1. Executive Summary:**\n\nThe hospital is currently operating near capacity with a slightly concerning AQI level. Elevated respiratory cases coinciding with the \"Unhealthy\" AQI suggests a potential strain on resources, requiring proactive monitoring and resource allocation.\n\n**2. Top 3 Priority Actions for Hospital Administrators:**\n\n*   **Monitor Respiratory Case Influx:** Closely track the number of respiratory cases and analyze trends to anticipate potential surges related to the poor air quality.\n*   **Implement Air Quality Mitigation Strategies:** Explore options to improve indoor air quality (e.g., HEPA filters) within the hospital to protect patients and staff.\n*   **Resource Optimization & Preparedness:** Review bed availability and staffing levels, and implement contingency plans if respiratory cases increase further and the admission rate for respiratory cases exceeds 20% of the total number of admissions\n\n**3. Risk Assessment:**\n\n**Medium**\n\n*   **Rationale:** The \"Unhealthy\" AQI (179.26) combined with a relatively high number of expected hospital admissions (56) and a low number of available beds (50) poses a moderate risk. The presence of 7 respiratory cases further elevates the risk, indicating a potential for increased demand on respiratory equipment and staff. While bed capacity is currently \"Normal,\" the small margin between available beds and expected admissions necessitates careful monitoring and proactive planning.\n",
+    "generated_at": "2025-10-19T22:57:18.023670",
+    "model": "gemini-pro"
+  },
+  "task_type": "full_analysis"
+}

@@ -1,7 +1,7 @@
 # local_scheduler.py - Updated for Integrated Agent
 import schedule
 import time
-from agent2_integrated import agent
+from legacy.agent2_integrated import agent
 
 def run_daily_aqi():
     """Run daily AQI and health impact prediction"""

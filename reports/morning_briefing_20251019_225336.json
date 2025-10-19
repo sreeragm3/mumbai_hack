@@ -1,0 +1,53 @@
+{
+  "aqi_data": {
+    "aqi": 179.26,
+    "category": "Unhealthy",
+    "date": "2025-10-19",
+    "city": "Delhi"
+  },
+  "health_predictions": {
+    "respiratory_cases": 7,
+    "cardiovascular_cases": 5,
+    "hospital_admissions": 0,
+    "health_impact_score": 100.0,
+    "health_impact_class": "Low"
+  },
+  "festival_predictions": {
+    "festivals": [],
+    "total_festivals": 0
+  },
+  "surge_predictions": {},
+  "patient_count_forecast": {
+    "base_patients": 40,
+    "pollution_adjustment": 15,
+    "total_expected_patients": 56
+  },
+  "epidemic_alerts": [],
+  "bed_capacity_plan": {
+    "total_beds": 200,
+    "available_beds": 50,
+    "daily_expected_admissions": 56,
+    "beds_needed_weekly": 32,
+    "capacity_status": "Normal"
+  },
+  "resource_allocation": {
+    "staffing": {
+      "nurses_required": 11,
+      "doctors_required": 5
+    },
+    "equipment": {
+      "ventilators": 5,
+      "cardiac_monitors": 5
+    },
+    "supplies": {
+      "blood_units": 0
+    }
+  },
+  "critical_alerts": [],
+  "llm_insights": {
+    "summary": "Okay, here's my analysis of the provided hospital resource data:\n\n**1. Executive Summary:**\n\nThe hospital faces an elevated risk due to unhealthy air quality (AQI 179.26) and a concerningly low bed availability margin (50 available beds with 56 admissions expected). Increased respiratory cases further highlight the impact of poor air quality.\n\n**2. Top 3 Priority Actions for Hospital Administrators:**\n\n1.  **Implement Air Quality Mitigation Strategies:** Immediately activate protocols for managing patients affected by poor air quality, including triaging respiratory cases, optimizing respiratory support equipment, and enforcing indoor air purification measures.\n2.  **Proactively Manage Bed Capacity:** Anticipate a potential bed shortage and implement strategies to maximize bed availability. This includes expediting discharge processes for stable patients, coordinating with neighboring facilities for potential overflow, and preparing contingency plans for surge capacity.\n3.  **Monitor Respiratory Case Trends and Patient Outcomes:** Closely track the number of respiratory cases, their severity, and patient outcomes. This will enable data-driven decision-making, resource allocation, and potential public health interventions.\n\n**3. Risk Assessment:**\n\n**High**\n",
+    "generated_at": "2025-10-19T22:53:36.003865",
+    "model": "gemini-pro"
+  },
+  "task_type": "full_analysis"
+}
